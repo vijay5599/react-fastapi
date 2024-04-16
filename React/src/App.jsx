@@ -117,7 +117,9 @@ function App() {
               label="ID"
             />
             {users.length === 0 && (
-              <p style={{ marginLeft: "10px" }}>No data available</p>
+              <p style={{ marginLeft: "10px", color: "red" }}>
+                No data available
+              </p>
             )}
           </Box>
           <Table aria-label="customized table">
